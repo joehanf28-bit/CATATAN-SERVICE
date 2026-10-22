@@ -1,3 +1,5 @@
+https://joehanf28-bit.github.io/CATATAN-SERVICE/
+
 # Catatan Servis - PWA Pembukuan Teknisi HP (Gaya Apple iOS/macOS)
 
 Aplikasi web progresif (PWA) responsif dan offline-first yang dirancang khusus untuk mempermudah teknisi servis HP mencatat pekerjaan, modal, harga jual, dan laba bersih (profit) harian tanpa kerumitan login/password. Tampilan mengusung estetika Apple Human Interface Guidelines (iOS & macOS) dengan dukungan tema otomatis (Terang/Gelap).
