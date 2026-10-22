@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A84FF" />
+      <stop offset="100%" stop-color="#0060DF" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.08" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- iOS Squircle Background -->
+  <rect width="512" height="512" rx="115" ry="115" fill="url(#bgGrad)"/>
+
+  <!-- Phone Outline -->
+  <g filter="url(#dropShadow)" transform="translate(136, 86)">
+    <!-- Device Body -->
+    <rect x="0" y="0" width="240" height="340" rx="42" ry="42" fill="#FFFFFF" fill-opacity="0.95" />
+    <!-- Screen Inner -->
+    <rect x="12" y="16" width="216" height="308" rx="30" ry="30" fill="url(#screenGrad)" />
+    <!-- Dynamic Island / Speaker notch -->
+    <rect x="88" y="24" width="64" height="10" rx="5" ry="5" fill="#1C1C1E" fill-opacity="0.8" />
+
+    <!-- Repair Tool (Wrench + Screwdriver / Gear) in iOS Style -->
+    <g transform="translate(64, 110)">
+      <!-- Circle badge -->
+      <circle cx="56" cy="56" r="48" fill="#0A84FF" />
+      <!-- Wrench Icon -->
+      <path d="M68 34 C63 30 55 30 50 35 C46 38 45 44 48 48 L32 64 C29 67 29 72 32 75 L37 80 C40 83 45 83 48 80 L64 64 C68 67 74 66 77 62 C82 57 82 49 78 44 L70 52 L60 50 L58 40 Z" fill="#FFFFFF" />
+      <!-- Sparkle/Check dots -->
+      <circle cx="78" cy="36" r="3.5" fill="#34C759" />
+    </g>
+
+    <!-- Bottom Home Bar -->
+    <rect x="76" y="312" width="88" height="4" rx="2" ry="2" fill="#8E8E93" />
+  </g>
+</svg>
